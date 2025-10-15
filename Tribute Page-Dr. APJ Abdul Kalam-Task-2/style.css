@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("nav\ image.png");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: max(60vh,100vw);
+    position: relative;
+}
+.main .box{
+    position: absolute;
+    background-color: black;
+    height: 60vh;
+    width: 100%;
+    opacity: 0.79;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    z-index: 20;
+    flex-direction: column;
+    height: 60vh;
+    
+}
+.name> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.name> :nth-child(2) {
+    font-weight: bolder;
+    font-size: 28px;
+    text-align: center;
+}
+.name> :nth-child(3) {
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 100px;
+}
+.separation{
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+}
+.data{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    font-size: 25px;
+}
+.secimg {
+    position: relative;
+    padding: 0;
+}
+
+.secimg img {
+    height: 300px;
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+}
+.last{
+    font-size: 15px;
+    font-weight: lighter;
+    padding-left: 300px;
+    color: grey;
+}
